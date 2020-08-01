@@ -1,1 +1,12 @@
-テスト
+問題1.東西南北を表示するプログラムを書く
+
+let direction = ['東', '西', '南', '北'];
+for (let i of direction){
+  console.log(i);
+}
+
+問題2.曜日を逆順に表示するプログラムを書く
+let direction = ['月', '火', '水', '木', '金', '土', '日']
+for (let i = 6; i >= 0; i--){
+  console.log(direction[i] + '曜日')
+}
