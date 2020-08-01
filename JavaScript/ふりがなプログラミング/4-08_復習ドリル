@@ -1,0 +1,19 @@
+問題1.cerateMail関数の文面を変更する
+
+let createmail = ( recv ) => {
+  console.log( recv + '様\n'
+              + 'はじめまして。');
+}
+createmail('柳井');
+
+問題2.請求額がマイナスのときは0を返す
+
+let addCharge = ( bill ) => {
+  if (bill > 0) {
+    return bill * 1.07;
+  }else{
+    return 0;
+  }
+}
+console.log( addCharge(1000))
+console.log( addCharge(-1000))
