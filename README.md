@@ -1,1 +1,1 @@
-# KY
+JavaScript練習用ブランチ
